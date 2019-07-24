@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="~/css/smartsafe.css" />
+    
+</head>
+
+
+
+
+<!-- NAVIGATION BAR -->
+<div id="fontnav">
+    <ul id="nav-ul">
+        <li id="navli"><a asp-controller="Smartsafe" asp-action="Home">Home</a></li>
+        <li id="navli"><a asp-controller="Smartsafe" asp-action="Digicode">Digicode</a></li>
+        <li style="float:right" id="navli"><a class="active"a asp-controller="Smartsafe" asp-action="About">About</a></li>
+    </ul>
+</div>
+
+@RenderBody()

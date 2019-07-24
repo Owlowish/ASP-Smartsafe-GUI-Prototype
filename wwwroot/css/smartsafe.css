@@ -1,0 +1,62 @@
+/* ============ FONT ======================== */
+#fontnav{
+    font: 22px arial, sans-serif;
+}
+
+
+
+
+
+/*============= NAVIGATION BAR * ===============*/
+#nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    
+}
+
+#navli {
+    float: left;   
+}
+
+#navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     
+}
+
+#navli a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+  /* =============== DIGICODE =====================  */
+
+
+  .buttondigi {
+    width: 75px;
+    height: 50px;
+    margin: 5px;
+}
+
+.maindigi {
+    position: absolute;
+    top: 30%;
+    left: 40%
+}
+
+.textviewdigi {
+    width: 260px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+}

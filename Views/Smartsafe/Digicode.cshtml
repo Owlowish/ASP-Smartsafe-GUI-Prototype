@@ -1,0 +1,112 @@
+@{
+    ViewData["Title"] = "Digicode";
+    Layout = "~/Views/Shared/_smartsafelayout.cshtml";
+}
+
+<head>
+<script>
+   function insert(id) {
+            document.form.textview.value = document.form.textview.value + id.value;
+
+        }
+
+        function clean() {
+
+            document.form.textview.value = "";
+
+            var array = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+            var currentIndex = array.length,
+                temporaryValue, randomIndex;
+
+            // While there remain elements to shuffle...
+            while (0 !== currentIndex) {
+
+                // Pick a remaining element...
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
+
+                // And swap it with the current element.
+                temporaryValue = array[currentIndex];
+                array[currentIndex] = array[randomIndex];
+                array[randomIndex] = temporaryValue;
+            }
+
+            console.log(array);
+
+            b0.value = array[0]
+            b1.value = array[1]
+            b2.value = array[2]
+            b3.value = array[3]
+            b4.value = array[4]
+            b5.value = array[5]
+            b6.value = array[6]
+            b7.value = array[7]
+            b8.value = array[8]
+            b9.value = array[9]
+
+        }
+
+
+</script>
+
+</head>
+
+<body onLoad="clean()">
+
+    <div class="maindigi">
+
+        <form name="form">
+
+            <input class="textviewdigi" name="textview">
+
+        </form>
+
+        <table>
+            <tr>
+
+                <td>
+                    <input class="buttondigi" type="button" value="1" onClick="insert(b0)" id="b0"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="2" onClick="insert(b1)" id="b1"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="3" onClick="insert(b2)" id="b2"> </td>
+
+            </tr>
+            <tr>
+
+                <td>
+                    <input class="buttondigi" type="button" value="4" onClick="insert(b3)" id="b3"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="5" onClick="insert(b4)" id="b4"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="6" onClick="insert(b5)" id="b5"> </td>
+
+            </tr>
+            <tr>
+
+                <td>
+                    <input class="buttondigi" type="button" value="7" onClick="insert(b6)" id="b6"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="8" onClick="insert(b7)" id="b7"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="9" onClick="insert(b8)" id="b8"> </td>
+
+            </tr>
+            <tr>
+
+                <td>
+                    <input class="buttondigi" type="button" value="X" onClick="clean()" id="bx"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="0" onClick="insert(b9)" id="b9"> </td>
+                <td>
+                    <input class="buttondigi" type="button" value="OK">
+                </td>
+
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+

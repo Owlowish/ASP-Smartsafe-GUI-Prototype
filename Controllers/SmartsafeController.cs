@@ -1,20 +1,25 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ASP_SmartSafe.Models;
+using System.Text.Encodings.Web;
 
-namespace ASP_SmartSafe.Controllers
+namespace SmartSafeControll.Controllers
 {
-    public class HomeController : Controller
+    public class SmartSafe : Controller
     {
- 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        
+          public IActionResult Home()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+
+         public IActionResult Digicode()
+        {
+            return View();
+        }
+
+         public IActionResult About()
+        {
+            return View();
+        }
+      
     }
 }
