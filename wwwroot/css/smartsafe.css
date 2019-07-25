@@ -3,8 +3,35 @@
     font: 22px arial, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
 
+/* ================  HEADER ====================== */
 
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font: 20px arial, sans-serif;
+    background-image: url("../images/logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20% 90%;
+    height: 100px;
+  }
+
+  
+
+  /*============= NAVIGATION BAR * ===============*/
+
+  .footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
 
 
 /*============= NAVIGATION BAR * ===============*/
@@ -51,7 +78,7 @@
 .maindigi {
     position: absolute;
     top: 30%;
-    left: 40%
+    left: 41%
 }
 
 .textviewdigi {
