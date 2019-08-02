@@ -72,22 +72,135 @@
 
 
   .buttondigi {
-    width: 75px;
+    width: 77px;
     height: 50px;
     margin: 5px;
     font-size: 25px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
 
 .maindigi {
     position: absolute;
+    
     top: 30%;
     left: 41%
 }
 
 .textviewdigi {
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
     width: 260px;
     height: 50px;
     margin: 5px;
     font-size: 25px;
     text-align: right;
+}
+
+
+/* ===================== Index ============================== */
+
+
+
+.colonne {
+  float : left;
+  width: 25%;
+  padding: 2%;
+  margin: 2%;
+ /* box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);*/
+  height: 500px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .colonne {
+    width: 100%;
+  }
+}
+
+.boutonIndexVerrou
+{
+  width: 65%;
+  height: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top : 15%;
+  background: url("../images/cadenas_fer.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;
+}
+
+.boutonIndexVerrou:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boutonIndexInfo
+{
+  width: 30%;
+  height: 25%;
+  margin-left: 65%;
+  margin-right: 45%;
+  margin-top : 80%;
+  background: url("../images/gunnebo_pet2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;  
+}
+
+.boutonIndexInfo:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.boutonIndexParam
+{
+  width: 30%;
+  height: 25%;
+  margin-left: 20%;
+  margin-right: 80%;
+  margin-top : 80%;
+  background: url("../images/parametres_old.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;
+}
+
+.boutonIndexParam:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.textIndexVerrou
+{
+ margin-left : 5%;
+ font: 43px sans-serif;
+ color: azure;
+}
+
+.textIndexParam{
+
+  margin-left : 10%;
+  font: 35px sans-serif;
+  color: azure;
+}
+
+
+.textIndexInfo{
+ 
+  margin-left :67%;
+ font: 35px sans-serif;
+ color: azure;
+
 }

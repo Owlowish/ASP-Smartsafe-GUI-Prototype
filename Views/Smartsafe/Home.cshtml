@@ -3,6 +3,19 @@
     Layout = "~/Views/Shared/_smartsafelayout.cshtml";
 }
 
-<body>
-    SmartSafe Home
-</body>
+<div class = "row">
+    <div class = " colonne">
+         <input class = "boutonIndexInfo"  type="button"  >
+         <b><h1 class="textIndexInfo"> Fichet </h1></b>
+    </div>
+
+    <div class = "colonne">
+            <a asp-controller="Smartsafe" asp-action="Digicode"><input class = "boutonIndexVerrou"  type="button"  ></a>
+            <b><h1 class="textIndexVerrou">Appuyez pour ouvrir</h1></b>
+    </div>
+
+    <div class = "colonne">
+            <input class = "boutonIndexParam" type="button"  >
+           </b><h1 class="textIndexParam">Maintenance</h1> <b>
+    </div>
+</div>
