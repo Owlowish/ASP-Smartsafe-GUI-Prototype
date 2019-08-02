@@ -7,7 +7,7 @@
     background-image: url("../images/fond.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 2000px;
+    height: 1500px;
   }
   
 
@@ -81,10 +81,11 @@
 }
 
 .maindigi {
-    position: absolute;
+    /*position: absolute;*/
     
-    top: 30%;
-    left: 41%
+    margin-left: 40%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 
 .textviewdigi {
@@ -202,5 +203,89 @@
   margin-left :67%;
  font: 35px sans-serif;
  color: azure;
+}
 
+/* ===================== INFO ============================== */
+
+.InfoColonne {
+  width: 90%;
+  margin-left : 5%;
+  margin-top: 2%;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  height: 500px;
+  background: url("../images/fenetre_grande.PNG");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 100% ;
+}
+
+.InfoFooter {
+  height: 100px;
+  margin-top: 15px;
+  /*box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);*/
+}
+
+.InfoBody{
+  padding-top: 1%;
+  padding-left: 5%;
+  font: 25px sans-serif;
+  font-size: 15px;
+  color: #ddd;
+}
+
+.InfoBoutonRetour{
+  margin-top: 1%;
+  width: 5%;
+  height: 75%;
+  margin-left: 8%;
+  background: url("../images/RETOUR.PNG");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;
+}
+
+.InfoBoutonRetour:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.InfoBoutonOuvrir{
+  margin-top: 1%;
+  width: 5%;
+  height: 75%;
+  margin-left: 33%;
+  background: url("../images/pet_cadenas_fer.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;
+}
+
+.InfoBoutonOuvrir:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+.InfoBoutonAcceuil{
+  margin-top: 1%;
+  width: 5%;
+  height:75%;
+  margin-left: 33%;
+  background: url("../images/HOME.PNG");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:100% 90%;
+  padding: 0;
+  border: none;
+}
+
+.InfoBoutonAcceuil:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

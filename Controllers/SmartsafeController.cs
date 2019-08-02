@@ -16,6 +16,11 @@ namespace SmartSafeControll.Controllers
             return View();
         }
 
+         public IActionResult Info()
+        {
+            return View();
+        }
+
          public IActionResult About()
         {
             return View();

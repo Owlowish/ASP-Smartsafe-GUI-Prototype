@@ -32,3 +32,4 @@ C:\Users\cheyuh\Desktop\temp\ASP MVC\ASP-SmartSafe\obj\Debug\netcoreapp2.2\Razor
 C:\Users\cheyuh\Desktop\temp\ASP MVC\ASP-SmartSafe\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\cheyuh\Desktop\temp\ASP MVC\ASP-SmartSafe\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\cheyuh\Desktop\temp\ASP MVC\ASP-SmartSafe\obj\Debug\netcoreapp2.2\Razor\Views\Smartsafe\About.g.cshtml.cs
+C:\Users\cheyuh\Desktop\temp\ASP MVC\ASP-SmartSafe\obj\Debug\netcoreapp2.2\Razor\Views\Smartsafe\Info.g.cshtml.cs

@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Info";
+    Layout = "~/Views/Shared/_smartsafelayout.cshtml";
+}
+
+
+
+<div class="InfoColonne">    
+    <div class="InfoBody">
+        <h1> Carte de visite de l'entreprise Fichet Bazancourt :</h1>
+        <br>
+        <h2>Adresse de la société</h2>
+        <body>15, rue Fichet Bauche <br>51110 Bazancourt<br>FRANCE</body>
+        
+        <h2>Horaires d'ouveture:</h2>
+        <body>Du Lundi au Vendredi <br>08:00-12:00, 13:00-15:00<br>Samedi / Dimanche : Fermé</body>
+   
+        <h2>Téléphone</h2>
+        <body>03 26 91 44 44</body>
+
+    </div>
+</div>
+
+<div class="InfoFooter">
+    <input class = "InfoBoutonRetour"  type="button" >
+    <a asp-controller="Smartsafe" asp-action="Digicode"><input class = "InfoBoutonOuvrir"  type="button" ></a>
+    <a asp-controller="Smartsafe" asp-action="Home"><input class = "InfoBoutonAcceuil"  type="button"></a>
+</div>
